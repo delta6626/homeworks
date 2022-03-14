@@ -10,8 +10,8 @@ except ValueError:
 
 password = ""
 
-while(l!=0):
-    password+=random.choice(characters)
-    l-=1
+while(l != 0):
+    password += random.choice(characters)
+    l -= 1
 
 print(f"Your password is {password}")

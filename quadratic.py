@@ -6,4 +6,4 @@ b = int(input("X term : "))
 c = int(input("Constant term : "))
 result1 = (-b+math.sqrt((b**2)-4*a*c))/2*a
 result2 = (-b-math.sqrt((b**2)-4*a*c))/2*a
-print(result1,result2)
+print(result1, result2)
